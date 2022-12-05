@@ -12,5 +12,6 @@ export default function Navbar() {
             <Link to='/contact'>Contact</Link>
             <Link to='/resume'>Resume</Link>
         </div>
+        
     )
 }

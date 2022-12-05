@@ -1,0 +1,16 @@
+input {
+    border: 1px solid black;
+}
+
+form {
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid black;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

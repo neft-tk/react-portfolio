@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./style.css"
+import "./style.css";
 
 export default function Contact(props) {
     const [contactFormName, setFormName] = useState("")
@@ -17,7 +17,7 @@ export default function Contact(props) {
 
     return (
         <>
-        <div className="Contact">
+        <div class="contactForm">
             <h1>Contact Me!</h1>
             <form onSubmit={handleFormSubmit}>
                 <h2>Name:</h2>

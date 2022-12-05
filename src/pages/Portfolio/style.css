@@ -1,0 +1,23 @@
+.card {
+    background-color: aqua;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.hide {
+    display: none;
+}
+
+.card:hover .hide {
+    display:block;
+    translate: 0px;
+    transition: 1s ease;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
